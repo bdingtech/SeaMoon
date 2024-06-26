@@ -13,8 +13,8 @@ export const CloudProvideTypeIcon = [
 export const CloudProvideTypeValueEnum = {
   1: <Space><IconFont type={"icon-aliyun"}/>阿里云</Space>,
   2: <Space><IconFont type={"icon-tengxunyun1"}/>腾讯云</Space>,
-  // 3: <Space><IconFont type={"icon-huaweiyun1"}/>华为云</Space>,
-  // 4: <Space><IconFont type={"icon-baiduyun"}/>百度云</Space>,
+  3: <Space><IconFont type={"icon-huaweiyun1"}/>华为云</Space>,
+  4: <Space><IconFont type={"icon-baiduyun"}/>百度云</Space>,
   5: <Space><IconFont type={"icon-sealos"}/>Sealos</Space>,
 }
 
@@ -26,12 +26,12 @@ export const CloudProvideTypeEnum = {
   2: {
     text: <Space><IconFont type={"icon-tengxunyun1"}/>腾讯云</Space>,
   },
-  // 3: {
-  //   text: <Space><IconFont type={"icon-huaweiyun1"}/>华为云</Space>,
-  // },
-  // 4: {
-  //   text: <Space><IconFont type={"icon-baiduyun"}/>百度云</Space>,
-  // },
+  3: {
+    text: <Space><IconFont type={"icon-huaweiyun1"}/>华为云</Space>,
+  },
+  4: {
+    text: <Space><IconFont type={"icon-baiduyun"}/>百度云</Space>,
+  },
   5: {
     text: <Space><IconFont type={"icon-sealos"}/>Sealos</Space>,
   },
@@ -80,12 +80,12 @@ export const ALiYunRegionEnum = {
   "cn-chengdu": "西南1(成都)",
   "cn-hongkong": "中国香港",
   "ap-northeast-1": "日本(东京)",
-  // "ap-northeast-2": "韩国(首尔)",
+  "ap-northeast-2": "韩国(首尔)",
   "ap-southeast-1": "新加坡(新加坡)",
   "ap-southeast-2": "澳大利亚(悉尼)",
   "ap-southeast-3": "马来西亚(吉隆坡)",
   "ap-southeast-5": "印尼(雅加达)",
-  // "ap-southeast-7": "泰国(曼谷)",
+  "ap-southeast-7": "泰国(曼谷)",
   "ap-south-1": "印度(孟买)",
   "eu-central-1": "德国(法兰克福)",
   "eu-west-1": "英国(伦敦)",
@@ -114,7 +114,7 @@ export const TencentRegionEnum = {
   "ap-tokyo": "亚太东北(东京)",
   "eu-frankfurt": "欧洲(法兰克福)",
   "na-ashburn": "美国东部(弗吉尼亚)",
-  // "na-toronto": "北美(多伦多)",
+  "na-toronto": "北美(多伦多)",
   "na-siliconvalley": "美国西部(硅谷)",
 }
 
