@@ -1,5 +1,6 @@
 name: seamoon-goreleaser
 on:
+  workflow_dispatch:
   workflow_call:
     secrets:
       GO_RELEASER_GITHUB_TOKEN:
