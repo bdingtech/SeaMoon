@@ -1,6 +1,5 @@
 name: seamoon-build
 on:
-  workflow_dispatch:
   workflow_call:
     secrets:
       DOCKERHUB_USERNAME:
